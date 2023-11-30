@@ -12,7 +12,13 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/svg+xml', href: '/to-do-list.svg' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/vue-to-do-list/to-do-list.svg',
+      },
+    ],
   },
 
   css: ['ant-design-vue/dist/antd.css', '~/assets/css/main.scss'],
