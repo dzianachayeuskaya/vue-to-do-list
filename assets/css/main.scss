@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+$primary-dark-color: rgb(32, 36, 39);
+$primary-light-color: rgb(255, 255, 255);
+$secondary-dark-color: rgba(143, 153, 163);
+$secondary-light-color: rgb(199, 204, 209);
+$active-blue-color: rgb(37, 120, 244);
+$light-blue-color: rgb(161, 174, 252);
+$active-iris-color: rgb(93, 95, 239);
+$light-iris-color: rgb(215, 190, 252);
+$active-fuchsia-color: rgb(239, 93, 168);
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: rgba($primary-dark-color, 0.1) $primary-light-color;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  color: $primary-dark-color;
+  --tw-ring-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus-visible,
+button:focus-visible {
+  outline: 2px solid $active-blue-color;
+}
+
+*:focus {
+  outline: unset;
+}
