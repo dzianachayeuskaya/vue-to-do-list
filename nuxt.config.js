@@ -20,7 +20,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/<repository-name>/',
+    base: '/vue-to-do-list/',
   },
 
   plugins: ['@/plugins/antd-ui'],

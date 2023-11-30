@@ -2,6 +2,8 @@
 
 Данное приложение позволит организовать свои задачи и вести список дел.
 
+[Demo](https://dzianachayeuskaya.github.io/vue-to-do-list).
+
 ## Установка
 
 ```bash
