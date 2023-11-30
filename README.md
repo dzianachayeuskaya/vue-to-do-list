@@ -2,7 +2,7 @@
 
 Данное приложение позволит организовать свои задачи и вести список дел.
 
-[Demo](https://dzianachayeuskaya.github.io/vue-to-do-list).
+Деплой приложения осуществлен с помощью GitHub Pages и GitHub Actions: https://dzianachayeuskaya.github.io/vue-to-do-list
 
 ## Установка
 
